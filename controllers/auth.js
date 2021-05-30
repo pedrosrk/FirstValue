@@ -49,12 +49,6 @@ exports.login = async (req, res) => {
 }
 
 exports.register = (req, res) => {
-    console.log(req.body)
-    /*
-    const name = req.body.name;
-    const email = req.body.email;
-    const password = req.body.password;
-    const passwordConfirm = req.body.passwordConfirm;*/
 
     const {name, email, password, passwordConfirm } = req.body;
 
